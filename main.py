@@ -50,3 +50,33 @@
 # mean(a,b,c,d)
 
 
+# ...
+# Exercise 4
+# import math
+#
+#
+# # Teng tomonli uchburchakning perimetri va yuzasini hisoblovchi funksiya
+# def teng_tomonli_uchburchak(a):
+#     if a <= 0:
+#         return "Tomon uzunligi musbat bo'lishi kerak!"
+#
+#     # Perimetrni hisoblash
+#     perimetr = 3 * a
+#
+#     # Yuzani hisoblash
+#     yuza = (math.sqrt(3) / 4) * (a ** 2)
+#
+#     return perimetr, yuza
+#
+#
+# # Foydalanuvchidan tomon uzunligini kiritish
+# a = float(input("Teng tomonli uchburchakning tomon uzunligini kiriting: "))
+#
+# # Funksiyani chaqirish va natijalarni chiqarish
+# natija = teng_tomonli_uchburchak(a)
+#
+# if isinstance(natija, tuple):
+#     print(f"Teng tomonli uchburchakning perimetri: {natija[0]}")
+#     print(f"Teng tomonli uchburchakning yuzasi: {natija[1]:.2f}")
+# else:
+#     print(natija)
